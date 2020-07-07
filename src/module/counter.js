@@ -10,8 +10,9 @@ const decrease = () => ({
   type: DECREASE,
 });
 
-const setDiff = () => ({
+const setDiff = (diff) => ({
   type: SET_DIFF,
+  diff,
 });
 
 const initialState = {
