@@ -2,15 +2,15 @@ const INCREASE = "Increase";
 const DECREASE = "Decrease";
 const SET_DIFF = "SetDiff";
 
-const increase = () => ({
+export const increase = () => ({
   type: INCREASE,
 });
 
-const decrease = () => ({
+export const decrease = () => ({
   type: DECREASE,
 });
 
-const setDiff = (diff) => ({
+export const setDiff = (diff) => ({
   type: SET_DIFF,
   diff,
 });
